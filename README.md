@@ -29,7 +29,7 @@ Hablando de que hemos puesto en cada zona:
 - En la zona A (Servidores), basicamente se encuentran todos los servidores, excepto los DNS.
 - En la zona B (Routers), hemos colocado los routers de los que disponemos.
 - En la zona C (Equipos), hemos colocado todos los equipos y los servidores DNS. Está dividida en 3 apartados:
-  - Almacen:PC1 y Debian2-Pruebas formarán parte de él.
+  - Almacen: PC1 y Debian2-Pruebas formarán parte de él.
   - Finanzas: PC3, PC4, PC5 perrtenecerán a este subgrupo.
   - Servidoresdns: Contendrá a Debian5-Pruebas Debian6-Pruebas.
 ---
