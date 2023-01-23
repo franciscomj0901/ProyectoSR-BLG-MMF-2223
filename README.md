@@ -45,7 +45,7 @@ A continuación, vamos a dejar las capturas del archivo /etc/bind/named.conf.loc
   -Álvaro:
   
 -Debian-Pruebas:
-  -Fran
+  -Fran:
   
   -Guillermo:
   
