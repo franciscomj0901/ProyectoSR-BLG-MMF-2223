@@ -36,4 +36,18 @@ Hablando de que hemos puesto en cada zona:
 4. **Zonas directas** <br>
 En las zonas directas Debian5-pruebas será el servidor principal para las zonas A y B y secundario para C, contrariamente, Debian6-pruebas será el servidor secundario para las zonas A y B y principal Para la zona C.<br>
 Además debemos acordarnos de colocar la línea de las notificaciones en las zonas secundarias<br>
-A continuación, vamos a dejar las capturas del archivo /etc/bind/named.conf.local
+A continuación, vamos a dejar las capturas del archivo /etc/bind/named.conf.local de cada uno de nosotros.
+-Debian5-Pruebas:
+  -Fran:
+  
+  -Guillermo:
+  
+  -Álvaro:
+  
+-Debian-Pruebas:
+  -Fran
+  
+  -Guillermo:
+  
+  -Álvaro:
+  
