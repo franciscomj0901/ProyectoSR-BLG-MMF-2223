@@ -55,18 +55,21 @@ A continuación, vamos a dejar las capturas del archivo /etc/bind/named.conf.loc
 Una vez que ya tenemos estos archivos creados hay que configurar los archivos db.xxxxxx<br>
 - dbservidores (Que se encuentra en el Debian5.pruebas)
   - Fran:<br>
+   ![db.servidores Fran](imagenes/francisco/db.servidores.com%20Debian5.png)
   - Guillermo:<br>
-   ![db.servidores](imagenes/guillermo/db.servidores.PNG)
+   ![db.servidores Guille](imagenes/guillermo/db.servidores.PNG)
   - Álvaro:
 
 -db.routers (Que se encuentra en el Debian5-pruebas)
   - Fran:<br>
+   ![db.routers Fran](imagenes/francisco/db.routers.com%20Debian5.png)
   - Guillermo:<br>
-   ![db.routers](imagenes/guillermo/db.routers.PNG)
+   ![db.routers Guille](imagenes/guillermo/db.routers.PNG)
   - Álvaro:
 
 -db.equipos (Que se encuentra en el Debian6-pruebas)
   - Fran:<br>
+   ![db.equipos Fran](imagenes/francisco/db.equipo.com%20Debian6.png)
   - Guillermo:<br>
-   ![db.equipos](imagenes/guillermo/db.equipos.PNG)
+   ![db.equipos Guille](imagenes/guillermo/db.equipos.PNG)
   - Álvaro:
