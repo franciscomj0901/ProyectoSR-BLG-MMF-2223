@@ -40,14 +40,14 @@ A continuación, vamos a dejar las capturas del archivo /etc/bind/named.conf.loc
 - Debian5-Pruebas:
   - Fran:<br>
   ![conf.local Debian5 Fran](imagenes/francisco/name.conf.local-Actividad%204%20Debian5.png)
-  - Guillermo:
+  - Guillermo:<br>
    ![conf.local Debian5 guillermo](imagenes/guillermo/named.conf.local.ej4.PNG)
   - Álvaro:
   
 - Debian6-Pruebas:
   - Fran:<br>
   ![conf.local Debian6 Fran](imagenes/francisco/name.conf.local-Actividad%204%20Debian6.png)
-  - Guillermo:
+  - Guillermo:<br>
    ![conf.local Debian6 guillermo](imagenes/guillermo/named.conf.local.ej4(2).PNG)
   - Álvaro:
   
