@@ -75,3 +75,6 @@ Una vez que ya tenemos estos archivos creados hay que configurar los archivos db
   ![db.equipos guillermo](imagenes/guillermo/db.equipos.PNG)
   - Álvaro: <br>
  ![db.equipos alvaro](imagenes/alvaro/db.equipos.comalvaro.jpg)
+ ---
+ 5. **Zonas inversas** <br>
+ 
