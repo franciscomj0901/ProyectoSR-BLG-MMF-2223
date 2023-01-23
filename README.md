@@ -43,7 +43,7 @@ A continuación, vamos a dejar las capturas del archivo /etc/bind/named.conf.loc
   - Guillermo:<br>
    ![conf.local Debian5 guillermo](imagenes/guillermo/named.conf.local.ej4.PNG)
   - Álvaro:<br>
-  ![conf.local Debian5 Álvaro](imagenes/alvaro/named.conf.local jta d5.jpg)
+  ![conf.local Debian5 Álvaro](imagenes/alvaro/named.conf.localjtad5.jpg)
   
 - Debian6-Pruebas:
   - Fran:<br>
@@ -51,7 +51,7 @@ A continuación, vamos a dejar las capturas del archivo /etc/bind/named.conf.loc
   - Guillermo:<br>
    ![conf.local Debian6 guillermo](imagenes/guillermo/named.conf.local.ej4(2).PNG)
   - Álvaro:<br>
-  ![conf.local Debian6 guillermo]()<img src="imagenes/alvaro/named.conf.local jta d6.jpg">
+  ![conf.local Debian6 guillermo]()<img src="imagenes/alvaro/named.conf.localjtad6.jpg">
 
 Una vez que ya tenemos estos archivos creados hay que configurar los archivos db.xxxxxx<br>
 - dbservidores (Que se encuentra en el Debian5.pruebas)<br>
@@ -60,18 +60,18 @@ Una vez que ya tenemos estos archivos creados hay que configurar los archivos db
   - Guillermo:<br>
    ![db.servidores Guille](imagenes/guillermo/db.servidores.PNG)
   - Álvaro:<br>
-![db.servidores Guille]()<img src="imagenes/alvaro/db.servidores.com jta d5.jpg">
+![db.servidores Guille]()<img src="imagenes/alvaro/db.servidores.comjtad5.jpg">
 -db.routers (Que se encuentra en el Debian5-pruebas)<br>
   - Fran:<br>
    <img src="imagenes/francisco/db.routers.com%20Debian5.png">
   - Guillermo:<br>
   <img src="imagenes/guillermo/db.routers.PNG">
   - Álvaro:
-![db.servidores Guille]()<img src="imagenes/alvaro/db.routers.com jta d5.jpg"><br><br>
+![db.servidores Guille]()<img src="imagenes/alvaro/db.routers.comjtad5.jpg"><br><br>
 -db.equipos (Que se encuentra en el Debian6-pruebas)<br>
   - Fran:<br>
    <img src="imagenes/francisco/db.equipo.com%20Debian6.png">
   - Guillermo:<br>
   <img src="imagenes/guillermo/db.equipos.PNG">
   - Álvaro: <br>
- ![db.servidores Guille]()<img src="imagenes/alvaro/db.equipos.com jta d6.jpg">
+ ![db.servidores Guille]()<img src="imagenes/alvaro/db.equipos.comjtad6.jpg">
