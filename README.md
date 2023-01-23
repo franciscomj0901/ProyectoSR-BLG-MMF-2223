@@ -8,7 +8,7 @@ Este es un proyecto el cuál hemos realizado con el fin de poner en práctica to
 ---
 1. **Figura con la infraestructura del entorno** <br>
 La infraestructura que hemos desarrollado ha sido la siguiente:<br>
-![Infraestructura](https://github.com/guillermo2005200/ProyectoSR-BLG-2223/blob/main/imagenes/DiagramaProyectoDNS.png)
+![Infraestructura](imagenes/DiagramaProyectoDNS.png)
 [Enlace al diagrama](https://drive.google.com/file/d/1OGA-V4_20N8UnIGlXNveywVdCZCEsaSm/view?usp=sharing)<br>
 Como podemos ver en la imagen el escenario esta dividido en 2 redes, la DMZ con 4 equipos, y la MZ con 5 y los dos servidores DNS, a todo esto se le suma un router que interconecta las dos redes y les da salida a internet a través de una red NAT. El direccionamiento se hará intercalando el método estático que lo utilizarán Debian5-pruebas, Debian6-pruebas y Debian1-pruebas, y los demás equipos obtendrán su configuración mediante DHCP.<br>
 La DMZ y Debian1-pruebas tendrá como servidor DNS favorito a Debian5 y como secundario a Debian6-pruebas, por otro lado la MZ lo tendrá al contrario. <br>
