@@ -73,4 +73,4 @@ Una vez que ya tenemos estos archivos creados hay que configurar los archivos db
   - Guillermo:<br>
    ![db.equipos-Guille](imagenes/guillermo/db.equipos.PNG)
   - Álvaro:
-  ![db.equipos-alvaro](imagenes/alvaro/db.equipos.com jta d6.jpg)
+  <img src="imagenes/alvaro/db.equipos.com jta d6.jpg" height="50" width="200">
