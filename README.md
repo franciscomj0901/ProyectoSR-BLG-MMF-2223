@@ -43,7 +43,7 @@ A continuación, vamos a dejar las capturas del archivo /etc/bind/named.conf.loc
   - Guillermo:<br>
    ![conf.local Debian5 guillermo](imagenes/guillermo/named.conf.local.ej4.PNG)
   - Álvaro:
-  <img src="imagenes/alvaro/named.conf.local jta d5.jpg">
+  ![conf.local Debian5 Álvaro](imagenes/alvaro/named.conf.local jta d5.jpg)
   
 - Debian6-Pruebas:
   - Fran:<br>
