@@ -8,7 +8,9 @@ Este es un proyecto el cuál hemos realizado con el fin de poner en práctica to
 1. **Figura con la infraestructura del entorno** <br>
 La infraestructura que hemos desarrollado ha sido la siguiente:<br>
 ![Infraestructura](https://github.com/guillermo2005200/ProyectoSR-BLG-2223/blob/main/imagenes/DiagramaProyectoDNS.png)
-[Enlace al diagrama](https://drive.google.com/file/d/1OGA-V4_20N8UnIGlXNveywVdCZCEsaSm/view?usp=sharing)
+[Enlace al diagrama](https://drive.google.com/file/d/1OGA-V4_20N8UnIGlXNveywVdCZCEsaSm/view?usp=sharing)<br>
+Como podemos ver en la imagen el escenario esta dividido en 2 redes, La DMZ con 4 equipos, y la MZ con 5 y los dos servidores DNS, a todo esto se le suma un router que interconecta las dos redes y les da salida a internet a través de una red NAT. El direccionamiento se hará intercalando el método estático que lo utilizarán Debian5-pruebas, Debian6-pruebas y Debian1-pruebas, y los demás equipos obtendrán su configuración mediante DHCP.<br>
+La DMZ y Debian1-pruebas tendrá como servidor DNS favorito a Debian5 y como secundario a Debian6-pruebas, por otro lado la MZ lo tendrá 
 ---
 2. **Tener Instalado el servicio DNS en DEbian5-pruebas y en Debian6-pruebas** <br>
 Lo debemos tener instalado en los dos equipos para dividir la resolución de nombres por igual y repartirse el trabajo entre los dos, además nos proporciona una resistencia mayor a los fallos, ya que, si falla un servidor estará el otro para suplirlo.<br>
@@ -22,7 +24,7 @@ Este es nuestro espacio de nombres que explicaremos a continuación:<br>
 Todas las máquinas virtuales de las que disponemos, es decir las DebianX-pruebas estan dotadas de su correspondiente nombre, además de las maquinas adicionales para completar la red. Los equipos de cada zona no han sido colocados al azar, ya que tienen influencia en el balanceo de carga del que hablaremos en el punto 7. <br>
 Llegamos, y superamos los dominios hasta tercer nivel en la zona c, donde un ejemplo sería: ("PC1.almacen.equipos.produccion.com). <br>
 Hablando de que hemos puesto en cada zona:
-- En la zona A (Servidores), basicamemnte se encuntran todos los servidores, excepto los DNS.
+- En la zona A (Servidores), basicamente se encuntran todos los servidores, excepto los DNS.
 - En la zona B (Equipos), hemos colocado los routers de los que disponemos.
 - En la zona C (Routers), hemos colocado todos los equipos y los servidores DNS.
 ---
