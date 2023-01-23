@@ -15,7 +15,7 @@ Lo debemos tener instalado en los dos equipos para dividir la resolución de nom
 Esto se puede comprobar mediante el comando "sudo service bind9 status" y debería salirnos este resultado.
 ![status](imagenes/status.PNG)
 
-3. **Espacio de nombres **<br>
+3. **Espacio de nombres** <br>
 Este es nuestro espacio de nombres que explicaremos a continuación:<br>
 ![Espacio de nombres](imagenes/espacionombres.PNG)
 [Enlace al diagrama](https://drive.google.com/file/d/1t0toJ2aAeeb92nNTWth2CG8ceuFkpZOH/view?usp=sharing)
