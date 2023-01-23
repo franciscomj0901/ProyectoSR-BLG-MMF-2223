@@ -42,7 +42,7 @@ A continuación, vamos a dejar las capturas del archivo /etc/bind/named.conf.loc
   ![conf.local Debian5 Fran](imagenes/francisco/name.conf.local-Actividad%204%20Debian5.png)
   - Guillermo:<br>
    ![conf.local Debian5 guillermo](imagenes/guillermo/named.conf.local.ej4.PNG)
-  - Álvaro:
+  - Álvaro:<br>
   ![conf.local Debian5 Álvaro](imagenes/alvaro/named.conf.local jta d5.jpg)
   
 - Debian6-Pruebas:
