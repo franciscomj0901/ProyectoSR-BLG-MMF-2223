@@ -63,15 +63,15 @@ Una vez que ya tenemos estos archivos creados hay que configurar los archivos db
 <img src="imagenes/alvaro/db.servidores.com jta d5.jpg">
 -db.routers (Que se encuentra en el Debian5-pruebas)
   - Fran:<br>
-   ![db.routers Fran](imagenes/francisco/db.routers.com%20Debian5.png)
+   <img src="imagenes/francisco/db.routers.com%20Debian5.png">
   - Guillermo:<br>
-   ![db.routers Guille](imagenes/guillermo/db.routers.PNG)
+  <img src="imagenes/guillermo/db.routers.PNG">
   - Álvaro:
 <img src="imagenes/alvaro/db.routers.com jta d5.jpg">
 -db.equipos (Que se encuentra en el Debian6-pruebas)
   - Fran:<br>
-   ![db.equipos Fran](imagenes/francisco/db.equipo.com%20Debian6.png)
+   <img src="imagenes/francisco/db.equipo.com%20Debian6.png">
   - Guillermo:<br>
-   ![db.equipos-Guille](imagenes/guillermo/db.equipos.PNG)
+  <img src="imagenes/guillermo/db.equipos.PNG">
   - Álvaro:
   <img src="imagenes/alvaro/db.equipos.com jta d6.jpg">
