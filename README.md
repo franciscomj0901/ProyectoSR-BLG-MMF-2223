@@ -17,3 +17,5 @@ Esto se puede comprobar mediante el comando "sudo service bind9 status" y deber√
 
 3. **Espacio de nombres **<br>
 Este es nuestro espacio de nombres que explicaremos a continuaci√≥n:<br>
+![Espacio de nombres](imagenes/espacionombres.PNG)
+[Enlace al diagrama](https://drive.google.com/file/d/1t0toJ2aAeeb92nNTWth2CG8ceuFkpZOH/view?usp=sharing)
