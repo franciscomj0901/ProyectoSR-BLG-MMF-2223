@@ -71,5 +71,5 @@ Una vez que ya tenemos estos archivos creados hay que configurar los archivos db
   - Fran:<br>
    ![db.equipos Fran](imagenes/francisco/db.equipo.com%20Debian6.png)
   - Guillermo:<br>
-   ![db.equipos-Guille|100](imagenes/guillermo/db.equipos.PNG)
+   ![db.equipos-Guille](imagenes/guillermo/db.equipos.PNG)
   - Álvaro:
