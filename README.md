@@ -22,6 +22,10 @@ Este es nuestro espacio de nombres que explicaremos a continuación:<br>
 Todas las máquinas virtuales de las que disponemos, es decir las DebianX-pruebas estan dotadas de su correspondiente nombre, además de las maquinas adicionales para completar la red. Los equipos de cada zona no han sido colocados al azar, ya que tienen influencia en el balanceo de carga del que hablaremos en el punto 7. <br>
 Llegamos, y superamos los dominios hasta tercer nivel en la zona c, donde un ejemplo sería: ("PC1.almacen.equipos.produccion.com). <br>
 Hablando de que hemos puesto en cada zona:
-- En la zona A, basicamemnte se encuntran todos los servidores, excepto los DNS.
-- En la zona B, hemos colocado los routers de los que disponemos.
-- EN la zona C, hemos colocado todos los equipos y los servidores DNS.
+- En la zona A (Servidores), basicamemnte se encuntran todos los servidores, excepto los DNS.
+- En la zona B (Equipos), hemos colocado los routers de los que disponemos.
+- En la zona C (Routers), hemos colocado todos los equipos y los servidores DNS.
+---
+4. **Zonas directas** <br>
+En las zonas directas Debian5-pruebas será el servidor principal para las zonas A y B y secundario para C, contrariamente, Debian6-pruebas será el servidor secundario para las zonas A y B y principal Para la zona C.<br>
+Además debemos acordarnos de colocar la línea de las notificaciones en las zonas secundarias
