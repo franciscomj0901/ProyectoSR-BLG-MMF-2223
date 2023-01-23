@@ -3,16 +3,17 @@
 #### SER - Guillermo Bárcena López, Francisco Mejías de Matos y Alvaro Jimenez talaverón <br>
 ![Foto de la portada](https://github.com/guillermo2005200/ProyectoSR-BLG-2223/blob/main/imagenes/download%20(6).jpeg)
 ---
-# Este es un proyecto el cuál hemos realizado con el fin de poner en práctica todo lo aprendido sobrer DNS y resolucion de nombres. Para explicarlo utilizaremos el guión proporcionado por nuestro profesor Jose Luis Rodríguez.
+Este es un proyecto el cuál hemos realizado con el fin de poner en práctica todo lo aprendido sobrer DNS y resolucion de nombres. Para explicarlo utilizaremos el guión proporcionado por nuestro profesor Jose Luis Rodríguez.
 ---
 1. **Figura con la infraestructura del entorno** <br>
 La infraestructura que hemos desarrollado ha sido la siguiente:<br>
 ![Infraestructura](https://github.com/guillermo2005200/ProyectoSR-BLG-2223/blob/main/imagenes/DiagramaProyectoDNS.png)
 [Enlace al diagrama](https://drive.google.com/file/d/1OGA-V4_20N8UnIGlXNveywVdCZCEsaSm/view?usp=sharing)<br>
-Como podemos ver en la imagen el escenario esta dividido en 2 redes, La DMZ con 4 equipos, y la MZ con 5 y los dos servidores DNS, a todo esto se le suma un router que interconecta las dos redes y les da salida a internet a través de una red NAT. El direccionamiento se hará intercalando el método estático que lo utilizarán Debian5-pruebas, Debian6-pruebas y Debian1-pruebas, y los demás equipos obtendrán su configuración mediante DHCP.<br>
-La DMZ y Debian1-pruebas tendrá como servidor DNS favorito a Debian5 y como secundario a Debian6-pruebas, por otro lado la MZ lo tendrá 
+Como podemos ver en la imagen el escenario esta dividido en 2 redes, la DMZ con 4 equipos, y la MZ con 5 y los dos servidores DNS, a todo esto se le suma un router que interconecta las dos redes y les da salida a internet a través de una red NAT. El direccionamiento se hará intercalando el método estático que lo utilizarán Debian5-pruebas, Debian6-pruebas y Debian1-pruebas, y los demás equipos obtendrán su configuración mediante DHCP.<br>
+La DMZ y Debian1-pruebas tendrá como servidor DNS favorito a Debian5 y como secundario a Debian6-pruebas, por otro lado la MZ lo tendrá al contrario. <br>
+Los servidores DNS tendrán de reenviador al Debian1-pruebas que resolverá los nombres de fuera de nuestra red accediendo a los Servidores DNS root.
 ---
-2. **Tener Instalado el servicio DNS en DEbian5-pruebas y en Debian6-pruebas** <br>
+2. **Tener Instalado el servicio DNS en Debian5-pruebas y en Debian6-pruebas** <br>
 Lo debemos tener instalado en los dos equipos para dividir la resolución de nombres por igual y repartirse el trabajo entre los dos, además nos proporciona una resistencia mayor a los fallos, ya que, si falla un servidor estará el otro para suplirlo.<br>
 Esto se puede comprobar mediante el comando "sudo service bind9 status" y debería salirnos este resultado.
 ![status](imagenes/status.PNG)
