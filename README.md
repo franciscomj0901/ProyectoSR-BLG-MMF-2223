@@ -13,4 +13,4 @@ La infraestructura que hemos desarrollado ha sido la siguiente:<br>
 2. **Tener Instalado el servicio DNS en DEbian5-pruebas y en Debian6-pruebas**<br>
 Lo debemos tener instalado en los dos equipos para dividir la resolución de nombres por igual y repartirse el trabajo entre los dos, además nos proporciona una resistencia mayor a los fallos, ya que, si falla un servidor estará el otro para suplirlo.<br>
 Esto se puede comprobar mediante el comando "sudo service bind9 status" y debería salirnos este resultado.
-![status](https://github.com/guillermo2005200/ProyectoSR-BLG2223/blob/main/imagenes/status.png)
+![status](imagenes/status.PNG)
