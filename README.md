@@ -59,7 +59,7 @@ Una vez que ya tenemos estos archivos creados hay que configurar los archivos db
    ![db.servidores Fran](imagenes/francisco/db.servidores.com%20Debian5.png)
   - Guillermo:<br>
    ![db.servidores Guille](imagenes/guillermo/db.servidores.PNG)
-  - Álvaro:
+  - Álvaro:<br>
 <img src="imagenes/alvaro/db.servidores.com jta d5.jpg">
 -db.routers (Que se encuentra en el Debian5-pruebas)<br>
   - Fran:<br>
