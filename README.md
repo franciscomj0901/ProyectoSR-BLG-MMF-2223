@@ -39,14 +39,14 @@ Además debemos acordarnos de colocar la línea de las notificaciones en las zon
 A continuación, vamos a dejar las capturas del archivo /etc/bind/named.conf.local de cada uno de nosotros.<br>
 - Debian5-Pruebas:
   - Fran:
-  
+  ![conf.local Debian5 Fran](imagenes/francisco/name.conf.local-Actividad%204%20Debian5.png)
   - Guillermo:
   
   - Álvaro:
   
-- Debian-Pruebas:
+- Debian6-Pruebas:
   - Fran:
-  
+  ![conf.local Debian6 Fran](imagenes/francisco/name.conf.local-Actividad%204%20Debian6.png)
   - Guillermo:
   
   - Álvaro:
