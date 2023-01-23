@@ -20,7 +20,7 @@ Este es nuestro espacio de nombres que explicaremos a continuación:<br>
 ![Espacio de nombres](imagenes/espacionombres.PNG)
 [Enlace al diagrama](https://drive.google.com/file/d/1t0toJ2aAeeb92nNTWth2CG8ceuFkpZOH/view?usp=sharing)<br>
 Todas las máquinas virtuales de las que disponemos, es decir las DebianX-pruebas estan dotadas de su correspondiente nombre, además de las maquinas adicionales para completar la red. Los equipos de cada zona no han sido colocados al azar, ya que tienen influencia en el balanceo de carga del que hablaremos en el punto 7. <br>
-Llegamos, y superamos los dominios hasta tercer nivel en la zona c, donde un ejemplo sería: "PC1.almacen.equipos.produccion.com). <br>
+Llegamos, y superamos los dominios hasta tercer nivel en la zona c, donde un ejemplo sería: ("PC1.almacen.equipos.produccion.com). <br>
 Hablando de que hemos puesto en cada zona:
 - En la zona A, basicamemnte se encuntran todos los servidores, excepto los DNS.
 - En la zona B, hemos colocado los routers de los que disponemos.
