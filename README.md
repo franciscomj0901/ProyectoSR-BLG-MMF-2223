@@ -38,14 +38,14 @@ En las zonas directas Debian5-pruebas será el servidor principal para las zonas
 Además debemos acordarnos de colocar la línea de las notificaciones en las zonas secundarias<br>
 A continuación, vamos a dejar las capturas del archivo /etc/bind/named.conf.local de cada uno de nosotros.<br>
 - Debian5-Pruebas:
-  - Fran:
+  - Fran:<br>
   ![conf.local Debian5 Fran](imagenes/francisco/name.conf.local-Actividad%204%20Debian5.png)
   - Guillermo:
   
   - Álvaro:
   
 - Debian6-Pruebas:
-  - Fran:
+  - Fran:<br>
   ![conf.local Debian6 Fran](imagenes/francisco/name.conf.local-Actividad%204%20Debian6.png)
   - Guillermo:
   
