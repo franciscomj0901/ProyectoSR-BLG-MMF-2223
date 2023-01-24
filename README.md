@@ -236,8 +236,16 @@ En este proyecto haremos transferencias de zona desde el Debian6 al Debian5, aun
   
  También debemos tener activadas transferencias de zona en el Debian6, es decir, el cual las va ha enviar.
   - Fran:<br>
-  ![allow-transfer Fran](imagenes/francisco/transferencia%20de%20zona%20Debian5-Debian6.png)
+  ![allow-transfer Fran](imagenes/francisco/allow-transfer-Debian6.png)
   - Guillermo:<br>
    ![allow-transfer guillermo]()
   - Álvaro:<br>
   ![allow-transfer Álvaro]()<br><br>
+
+Una vez hecho todo esto, reiniciamos el servicio y al hacer _ls_ debemo tener el archivo esclavo.
+- Fran:<br>
+  ![comprobación transferencia Fran](imagenes/francisco/transferencia%20de%20zona%20Debian5-Debian6.png)
+  - Guillermo:<br>
+   ![comprobación transferencia guillermo]()
+  - Álvaro:<br>
+  ![comprobación transferencia Álvaro]()<br><br>
