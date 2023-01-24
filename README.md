@@ -227,25 +227,25 @@ Los registros especiales que nosotros vamos a poner son NS, CNAME, MX y SOA. Par
 9. **Transferencias de zonas**<br>
 En este proyecto haremos transferencias de zona desde el Debian6 al Debian5, aunque en la ssolución real se tendría que hacer en ambos sentidos. Para empezar, en el fichero /etc/bind/named.conf.local, cuando definamos las zonas, tendremos zona masters y zonas esclavas. en estas zonas esclavas habrá que esspecificar cual es la IP del servidor DNS master de esa zona, que será el cual nos haga las tranferencias de zona. También, dentro de esa zona debemos añadir "allow-notify", sirve para que cada vez que se cargue la zona, el equipo pregunte a la IP indicada sobre el serial del registro SOA, el cual si se cambia, se hará la transferencia de zona. A continuación las capturas:
 
-  - Fran:<br>
+    - Fran:<br>
   ![slave y notify Fran](imagenes/francisco/name.conf.local-Debian5-slave.png)
-  - Guillermo:<br>
+    - Guillermo:<br>
    ![slave y notify guillermo]()
-  - Álvaro:<br>
+    - Álvaro:<br>
   ![slave y notify Álvaro]()<br><br>
   
  También debemos tener activadas transferencias de zona en el Debian6, es decir, el cual las va ha enviar.
-  - Fran:<br>
+    - Fran:<br>
   ![allow-transfer Fran](imagenes/francisco/allow-transfer-Debian6.png)
-  - Guillermo:<br>
+    - Guillermo:<br>
    ![allow-transfer guillermo]()
-  - Álvaro:<br>
+    - Álvaro:<br>
   ![allow-transfer Álvaro]()<br><br>
 
 Una vez hecho todo esto, reiniciamos el servicio y al hacer _ls_ debemo tener el archivo esclavo.
-- Fran:<br>
+    - Fran:<br>
   ![comprobación transferencia Fran](imagenes/francisco/transferencia%20de%20zona%20Debian5-Debian6.png)
-  - Guillermo:<br>
+    - Guillermo:<br>
    ![comprobación transferencia guillermo]()
-  - Álvaro:<br>
+    - Álvaro:<br>
   ![comprobación transferencia Álvaro]()<br><br>
