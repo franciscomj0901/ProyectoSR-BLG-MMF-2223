@@ -189,7 +189,7 @@ Como vemos, reservamos una IP al Debian2 y al Debian3 y ponemos como servidor DN
   - Guillermo:<br>
    ![resolv.conf Debian3 guillermo](imagenes/guillermo/resolv.confdeb3.png)
   - Álvaro:<br>
-  ![resolv.conf Debian3 Álvaro]()<br><br>ç
+  ![resolv.conf Debian3 Álvaro]()<br><br>
   
   ---
 8. **Registros especiales** <br>
