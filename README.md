@@ -124,7 +124,7 @@ Lo que sí que tenemos que configurar son los reenviadores del Debian6-pruebas y
   - Guillermo:<br>
    ![Reenviadores Debian5 guillermo](imagenes/guillermo/Forwarders.PNG)
   - Álvaro:<br>
-  ![Reenviadores Debian5 Álvaro]()
+  ![Reenviadores Debian5 Álvaro](imagenes/alvaro/forwardersdebian5.jpg)
   
 - Debian6-Pruebas:
   - Fran:<br>
@@ -132,4 +132,4 @@ Lo que sí que tenemos que configurar son los reenviadores del Debian6-pruebas y
   - Guillermo:<br>
    ![Reenviadores Debian6 guillermo](imagenes/guillermo/forwarders2.PNG)
   - Álvaro:<br>
-  ![Reenviadores Debian6 Álvaro]()
+  ![Reenviadores Debian6 Álvaro](imagenes/alvaro/forwardersdebian6.jpg)
