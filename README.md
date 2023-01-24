@@ -167,7 +167,7 @@ Debian 1 tendrá su configuración estática así que su resolv.conf se configur
   ![resolv.conf Debian1 Álvaro](imagenes/alvaro/resolvdebian1.jpg)<br><br>
   
 La DMZ, es decir, los equipos que tiene a Debian5 como servidor DNS preferido, está representada por Debian3-Pruebas y la MZ, es decir, los equipos que tiene a Debian6 como servidor DNS preferido, está representada por Debian2-Pruebas. Esta configuración se hará mediante DHCP, aprendido en la unidad anterior, para ello editaremos el fichero /etc/dhcp/dhcpd.conf en el Debian1:
- - Debian1-Pruebas:
+- Debian1-Pruebas:
   - Fran:<br>
   ![dhcpd.conf Debian1 Fran](imagenes/francisco/dhcpd.conf-Debian1.png)
   - Guillermo:<br>
@@ -184,7 +184,7 @@ Como vemos, reservamos una IP al Debian2 y al Debian3 y ponemos como servidor DN
   - Álvaro:<br>
   ![resolv.conf Debian2 Álvaro]()<br><br>
   
-  - Debian3-Pruebas:
+- Debian3-Pruebas:
   - Fran:<br>
   ![resolv.conf Debian3 Fran](imagenes/francisco/resolv.conf-Debian3.png)
   - Guillermo:<br>
