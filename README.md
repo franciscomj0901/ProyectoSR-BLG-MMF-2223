@@ -243,9 +243,9 @@ En este proyecto haremos transferencias de zona desde el Debian6 al Debian5, aun
   ![allow-transfer Álvaro]()<br><br>
 
 Una vez hecho todo esto, reiniciamos el servicio y al hacer _ls_ debemo tener el archivo esclavo.
-    - Fran:<br>
+   - Fran:<br>
   ![comprobación transferencia Fran](imagenes/francisco/transferencia%20de%20zona%20Debian5-Debian6.png)
-    - Guillermo:<br>
+   - Guillermo:<br>
    ![comprobación transferencia guillermo]()
-    - Álvaro:<br>
+   - Álvaro:<br>
   ![comprobación transferencia Álvaro]()<br><br>
