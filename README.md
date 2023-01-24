@@ -1,4 +1,3 @@
-
 # Implantación del servicio DNS en el entorno de trabajo
 #### SER - Guillermo Bárcena López, Francisco Mejías de Matos y Alvaro Jimenez talaverón <br>
 ![Foto de la portada](imagenes/download%20(6).jpeg)
@@ -223,3 +222,22 @@ Los registros especiales que nosotros vamos a poner son NS, CNAME, MX y SOA. Par
   - Expire: Es el tiempo que durarán las peticiones del servidor esclavo al primario, mientras este no responda. En nuestro caso es de un mes, un tiempo bastante largo, porque no comtemplamos que el servidor primario no responda, si eso pasa, algo va mal.<br>
   
   - Negative Cache TTL: Tiempo que otros servidores guardan en caché la zona. En nuestro caso es de siete días para que tengan bastante tiempo ese extra de velocidad.
+
+---
+9.**Transferencias de zonas**<br>
+En este proyecto haremos transferencias de zona desde el Debian6 al Debian5, aunque en la ssolución real se tendría que hacer en ambos sentidos. Para empezar, en el fichero /etc/bind/named.conf.local, cuando definamos lasss zonas, tendremos zona masters y zonas esclavas. en estas zonas esclavas habrá que esspecificar cual es la IP del servidor DNS master de esa zona, que será el cual nos haga las tranferencias de zona. También, dentro de esa zona debemos añadir "allow-notify", sirve para que cada vez que se cargue la zona, el equipo pregunte a la IP indicada sobre el serial del registro SOA, el cual si sse cambia, se hará la transferencia de zona. A continuación las capturas:
+
+  - Fran:<br>
+  ![slave y notify Fran](imagenes/francisco/name.conf.local-Debian5-slave.png)
+  - Guillermo:<br>
+   ![slave y notify guillermo]()
+  - Álvaro:<br>
+  ![slave y notify Álvaro]()<br><br>
+  
+ También debemos tener activadas transferencias de zona en el Debian6, es decir, el cual las va ha enviar.
+  - Fran:<br>
+  ![allow-transfer Fran](imagenes/francisco/transferencia%20de%20zona%20Debian5-Debian6.png)
+  - Guillermo:<br>
+   ![allow-transfer guillermo]()
+  - Álvaro:<br>
+  ![allow-transfer Álvaro]()<br><br>
