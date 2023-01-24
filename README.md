@@ -192,7 +192,7 @@ Como vemos, reservamos una IP al Debian2 y al Debian3 y ponemos como servidor DN
   ![resolv.conf Debian3 Álvaro]()<br><br>ç
   
   ---
-8. **Resgistros especiales** <br>
+8. **Registros especiales** <br>
 Los registros especiales que nosotros vamos a poner son NS, CNAME, MX y SOA. Para estos registros solo vamos a subir una captura, ya que se pueden ver por separado en capturas anteriores.<br>
 
 - Registros NS: Representa a los servidores DNS del espacio de nombres, en nuestro caso son el Debian5-pruebas y Debian6-pruebas.<br>
