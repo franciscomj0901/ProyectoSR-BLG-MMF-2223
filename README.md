@@ -51,7 +51,7 @@ A continuación, vamos a dejar las capturas del archivo /etc/bind/named.conf.loc
   - Guillermo:<br>
    ![conf.local Debian6 guillermo](imagenes/guillermo/named.conf.local.ej4(2).PNG)
   - Álvaro:<br>
-  ![conf.local Debian6 guillermo](imagenes/alvaro/named.conf.locald6alvaro.jpg)
+  ![conf.local Debian6 Alvaro](imagenes/alvaro/named.conf.locald6alvaro.jpg)
 
 Una vez que ya tenemos estos archivos creados hay que configurar los archivos db.xxxxxx<br>
 - dbservidores (Que se encuentra en el Debian5.pruebas)<br>
@@ -114,5 +114,22 @@ Una vez que ya tenemos estos archivos creados hay que configurar los archivos db
 ---
 6. **Servidor DNS de solo caché** <br>
 
+Ahora mismo nuestra red no resuelve nombres fuera de nuestro dominio, es decir si nosotros hicieramos "host www.google.es", es completamente imposible que nos resuelva. La mejor manera de arreglar esto es configurando un servidor DNS de solo caché, que en nuestro caso será el Debian1-pruebas. Este servidor realizará las resoluciones que Debian5-pruebas y Debian6-pruebas no puedan.<br>
+Para poder hacer esto lo primero que habrá que hacer, logicamente, será descargarnos el servicio bind9 en Debian1-pruebas, y al contrario de lo que mucha gente piensa no configuraremos nada, porque sin tocar nada el primer archivo donde va a mirar es el que contiene los servidores DNS raiz y podrá resolver los nombres fuera de su red.<br>
 
-
+Lo que sí que tenemos que configurar son los reenviadores del Debian6-pruebas y Debian5-pruebas que se configuran en el fichero /etc/bind/named.conf.options, A continuación se muestran las capturas: <br>
+- Debian5-Pruebas:
+  - Fran:<br>
+  ![reenviadores Debian5 Fran](imagenes/francisco/forwarders-Debian5.png)
+  - Guillermo:<br>
+   ![Reenviadores Debian5 guillermo](imagenes/guillermo/Forwarders.PNG)
+  - Álvaro:<br>
+  ![Reenviadores Debian5 Álvaro]()
+  
+- Debian6-Pruebas:
+  - Fran:<br>
+  ![Reenviadores Debian6 francisco](imagenes/francisco/forwarders-Debian6.png)
+  - Guillermo:<br>
+   ![Reenviadores Debian6 guillermo](imagenes/guillermo/forwarders2.PNG)
+  - Álvaro:<br>
+  ![Reenviadores Debian6 Álvaro]()
