@@ -230,7 +230,7 @@ En este proyecto haremos transferencias de zona desde el Debian6 al Debian5, aun
   - Fran:<br>
   ![slave y notify Fran](imagenes/francisco/name.conf.local-Debian5-slave.png)
   - Guillermo:<br>
-   ![slave y notify guillermo]()
+   ![slave y notify guillermo](imagenes/guillermo/notify.png)
   - Álvaro:<br>
   ![slave y notify Álvaro]()<br><br>
   
@@ -238,7 +238,7 @@ En este proyecto haremos transferencias de zona desde el Debian6 al Debian5, aun
    - Fran:<br>
   ![allow-transfer Fran](imagenes/francisco/allow-transfer-Debian6.png)
    - Guillermo:<br>
-   ![allow-transfer guillermo]()
+   ![allow-transfer guillermo](imagenes/guillermo/notifyyes.png)
    - Álvaro:<br>
   ![allow-transfer Álvaro]()<br><br>
 
@@ -246,6 +246,6 @@ Una vez hecho todo esto, reiniciamos el servicio y al hacer _ls_ debemo tener el
    - Fran:<br>
   ![comprobación transferencia Fran](imagenes/francisco/transferencia%20de%20zona%20Debian5-Debian6.png)
    - Guillermo:<br>
-   ![comprobación transferencia guillermo]()
+   ![comprobación transferencia guillermo](imagenes/guillermo/comprobacionesclavo.png)
    - Álvaro:<br>
   ![comprobación transferencia Álvaro]()<br><br>
