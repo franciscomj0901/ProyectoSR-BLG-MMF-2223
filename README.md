@@ -145,7 +145,7 @@ Asimismo, Debian5 y Debian6 se tendrán como preferido a ellos mismos y como alt
   - Fran:<br>
   ![resolv.conf Debian5 Fran](imagenes/francisco/resolv.conf-Debian5.png)
   - Guillermo:<br>
-   ![resolv.conf Debian5 guillermo]()
+   ![resolv.conf Debian5 guillermo](imagenes/guillermo/resolv.confdeb5.PNG)
   - Álvaro:<br>
   ![resolv.conf Debian5 Álvaro]()
   
@@ -153,6 +153,6 @@ Asimismo, Debian5 y Debian6 se tendrán como preferido a ellos mismos y como alt
   - Fran:<br>
   ![resolv.conf Debian6 francisco](imagenes/francisco/resolv.conf-Debian6.png)
   - Guillermo:<br>
-   ![resolv.conf Debian6 guillermo]()
+   ![resolv.conf Debian6 guillermo](imagenes/guillermo/resolv.confdeb6.PNG)
   - Álvaro:<br>
   ![resolv.conf Debian6 Álvaro]()
