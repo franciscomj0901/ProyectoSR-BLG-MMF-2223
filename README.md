@@ -138,7 +138,7 @@ Lo que sí que tenemos que configurar son los reenviadores del Debian6-pruebas y
 7. **Resolución DNS en los clientes** <br>
 En este apartado explicaremos el balanceo de carga que hemos realizado, es decir, la mitad de equipos tendrán como servidor DNS preferido al Debian5 y como alternativo al Debian6 y la otra mitad justo al contrario, de esta forma conseguimos que la red este balanceada y ambos servidores reciban la misma carga y así no se saturen.
 - Equipos que tendrán a Debian5 como preferido y a Debian6 como alternativo: Debian1, PC8, PC9, PC10, Debian3.
-- Equipos que tendrán a Debian6 como preferido y a Debian5 como alternativo: PC1, Debian2, PC3, PC4, PC5. <br>
+- Equipos que tendrán a Debian6 como preferido y a Debian5 como alternativo: PC1, Debian2, PC3, PC4, PC5. <br><br>
 Asimismo, Debian5 y Debian6 se tendrán como preferido a ellos mismos y como alternativo al otro. A continuación pondremos captura de pantalla del fichero /etc/resolv.conf de cada uno de ellos, en este fichero se configura los servidores DNS en orden de preferencia.
 
 - Debian5-Pruebas:
