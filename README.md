@@ -198,10 +198,28 @@ Los registros especiales que nosotros vamos a poner son NS, CNAME, MX y SOA. Par
 
 - Registros NS: Representa a los servidores DNS del espacio de nombres, en nuestro caso son el Debian5-pruebas y Debian6-pruebas.<br>
  ![Registro NS](imagenes/registrosNS.png)<br><br><br>
-- Registros CNAME: Se usa para añadir alias a ciertos equipos equipos y que sean accesibles por varios nombres, por ejemplo nuestro router será accedido mediante Debian1-pruebas.routers.producción.com o cambiando el último nivle por enrutador.<br>
+- Registros CNAME: Se usa para añadir alias a ciertos equipos equipos y que sean accesibles por varios nombres, por ejemplo nuestro router será accedido mediante Debian1-pruebas.routers.producción.com o cambiando el último nivel por enrutador.<br>
  ![Registro cname debian1](imagenes/cname-Debian1.png)<br><br>
  ![Registro cname debian3](imagenes/cname-Debian3.png)<br><br>
  ![Registro cname debian5 y 6](/imagenes/cname-Debian5%20y%20Debian6.png)<br><br><br>
 
 - Registros MX: Se usa para reconocer rápidamente los servidores de correo del dominio, que en nuestro caso será Debian3-pruebas.<br>
 ![Registro mx](imagenes/mx-Debian3.png)<br><br><br>
+
+- Registros SOA: Define algunas caracterísiticas de cada zona que describiré a continuación, además debe ser el primer resgistro de cada zona. Este es nuestro registro del servidores.produccion.com:<br>
+![Registro SOA](imagenes/RegistroSOA.png)<br><br>
+  - Servidores.produccion.com: Es basicamente el nombre del dominio e ira cambiando según donde nos encontremos, en db.equipos sería equipos.produccion.com, auqnue también se puede sustituir por un @ que representa basicamente la directiva @ORIGIN.<br>
+  
+  - Debian5: Se trata del servidor DNS primario de la zona.<br>
+ 
+  - admin: se trata de la dirección de correo eléctronico de la persona responsable de la zona.<br>
+  
+  - Serial: Es la versión del archivo, si aumenta es que el archivo ha cambiado, hemos elegido el número 7 para ir aumentándolo de 7 en 7, ya que pensamos que se diferencia mucho mejor que de uno en uno.<br>
+  
+  - Refresh: Es el tiempo que se da entre cada vez que los servidores secundarios verifican si ha habido algún cambio en los primarios para hacer la transferencia de zona. En nuestro caso es de 7 días, ya que somos una empresa en asentada y no solemos tener necesidad de introducir resgistros nuevos.
+  
+  - Retry: Es el tiempo que tarda el servidor secundario en volver a intentar una transferencia fallida. En nuestro caso es de un día, puede parecer bastante tiempo pero realmente se debe dejar un tiempo primordial que nos permita solucionar el problema.<br>
+   
+  - Expire: Es el tiempo que durarán las peticiones del servidor esclavo al primario, mientras este no responda. En nuestro caso es de un mes, un tiempo bastante largo, porque no comtemplamos que el servidor primario no responda, si eso pasa, algo va mal.<br>
+  
+  - Negative Cache TTL: Tiempo que otros servidores guardan en caché la zona. En nuestro caso es de siete días para que tengan bastante tiempo ese extra de velocidad.
