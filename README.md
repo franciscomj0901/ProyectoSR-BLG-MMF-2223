@@ -77,4 +77,12 @@ Una vez que ya tenemos estos archivos creados hay que configurar los archivos db
  ![db.equipos alvaro](imagenes/alvaro/db.equipos.comalvaro.jpg)
  ---
  5. **Zonas inversas** <br>
+
+ - Álvaro: <br>
+![db.equipos alvaro](imagenes/alvaro/dbDMZdebian5alvaro.png)
  
+![db.equipos alvaro](imagenes/alvaro/dbMZdebian6alvaro.png)
+
+![db.equipos alvaro](imagenes/alvaro/debian5namedconfnuevoalvaro.png)
+
+![db.equipos alvaro](imagenes/alvaro/debian6namedconfnuevoalvaro.png)
