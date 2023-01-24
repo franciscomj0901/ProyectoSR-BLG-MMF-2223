@@ -81,7 +81,7 @@ Las zonas inversas actúan al contrario que las zonas directas, es decir nos ent
 
 - Debian5-Pruebas:
   - Fran:<br>
-  ![conf.local inversas Debian5 Fran]()
+  ![conf.local inversas Debian5 Fran](imagenes/francisco/name.conf.local-ZonasInversas-Debian5.png)
   - Guillermo:<br>
    ![conf.local inversas Debian5 guillermo](imagenes/guillermo/zonasinversasdeb5.PNG)
   - Álvaro:<br>
@@ -89,7 +89,7 @@ Las zonas inversas actúan al contrario que las zonas directas, es decir nos ent
   
 - Debian6-Pruebas:
   - Fran:<br>
-  ![conf.local inversas Debian6 Fran]()
+  ![conf.local inversas Debian6 Fran](imagenes/francisco/name.conf.local-ZonasInversas-Debian6.png)
   - Guillermo:<br>
    ![conf.local inversas Debian6 guillermo](imagenes/guillermo/zonasinversasdeb6.PNG)
   - Álvaro:<br>
@@ -98,20 +98,21 @@ Las zonas inversas actúan al contrario que las zonas directas, es decir nos ent
 Una vez que ya tenemos estos archivos creados hay que configurar los archivos db.MZ y db.DMZ<br>
 - db.DMZ (Que se encuentra en el Debian5.pruebas)<br>
   - Fran:<br>
-   ![db.DMZ Fran]()
+   ![db.DMZ Fran](imagenes/francisco/db.DMZ-Debian5.png)
   - Guillermo:<br>
    ![db.DMZ Guillermo](imagenes/guillermo/db.DMZ.PNG)
   - Álvaro:<br>
 ![db.DMZ alvaro](imagenes/alvaro/dbDMZdebian5alvaro.png)<br><br><br>
 - db.MZ (Que se encuentra en el Debian6-pruebas)<br>
   - Fran:<br>
-   ![db.MZ francisco]()
+   ![db.MZ francisco](imagenes/francisco/db.MZ-Debian6.png)
   - Guillermo:<br>
   ![db.MZ francisco](imagenes/guillermo/db.MZ.PNG)
   - Álvaro:<br>
 ![db.MZ alvaro](imagenes/alvaro/dbMZdebian6alvaro.png)<br><br><br>
 
-
+---
+6. **Servidor DNS de solo caché** <br>
 
 
 
