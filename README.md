@@ -171,7 +171,7 @@ La DMZ, es decir, los equipos que tiene a Debian5 como servidor DNS preferido, e
   - Fran:<br>
   ![dhcpd.conf Debian1 Fran](imagenes/francisco/dhcpd.conf-Debian1.png)
   - Guillermo:<br>
-   ![dhcpd.conf Debian1 guillermo]()
+   ![dhcpd.conf Debian1 guillermo](imagenes/guillermo/dhcpd.conf.png)
   - Álvaro:<br>
   ![dhcpd.con Debian1 Álvaro]()<br><br>
   
@@ -180,7 +180,7 @@ Como vemos, reservamos una IP al Debian2 y al Debian3 y ponemos como servidor DN
   - Fran:<br>
   ![resolv.conf Debian2 Fran](imagenes/francisco/resolv.conf-Debian2.png)
   - Guillermo:<br>
-   ![resolv.conf Debian2 guillermo]()
+   ![resolv.conf Debian2 guillermo](imagenes/guillermo/resolv.confdeb2.png)
   - Álvaro:<br>
   ![resolv.conf Debian2 Álvaro]()<br><br>
   
@@ -188,6 +188,6 @@ Como vemos, reservamos una IP al Debian2 y al Debian3 y ponemos como servidor DN
   - Fran:<br>
   ![resolv.conf Debian3 Fran](imagenes/francisco/resolv.conf-Debian3.png)
   - Guillermo:<br>
-   ![resolv.conf Debian3 guillermo]()
+   ![resolv.conf Debian3 guillermo](imagenes/guillermo/resolv.confdeb3.png)
   - Álvaro:<br>
   ![resolv.conf Debian3 Álvaro]()<br><br>
