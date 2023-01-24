@@ -225,7 +225,7 @@ Los registros especiales que nosotros vamos a poner son NS, CNAME, MX y SOA. Par
 
 ---
 9. **Transferencias de zonas**<br>
-En este proyecto haremos transferencias de zona desde el Debian6 al Debian5, aunque en la ssolución real se tendría que hacer en ambos sentidos. Para empezar, en el fichero /etc/bind/named.conf.local, cuando definamos lasss zonas, tendremos zona masters y zonas esclavas. en estas zonas esclavas habrá que esspecificar cual es la IP del servidor DNS master de esa zona, que será el cual nos haga las tranferencias de zona. También, dentro de esa zona debemos añadir "allow-notify", sirve para que cada vez que se cargue la zona, el equipo pregunte a la IP indicada sobre el serial del registro SOA, el cual si sse cambia, se hará la transferencia de zona. A continuación las capturas:
+En este proyecto haremos transferencias de zona desde el Debian6 al Debian5, aunque en la ssolución real se tendría que hacer en ambos sentidos. Para empezar, en el fichero /etc/bind/named.conf.local, cuando definamos las zonas, tendremos zona masters y zonas esclavas. en estas zonas esclavas habrá que esspecificar cual es la IP del servidor DNS master de esa zona, que será el cual nos haga las tranferencias de zona. También, dentro de esa zona debemos añadir "allow-notify", sirve para que cada vez que se cargue la zona, el equipo pregunte a la IP indicada sobre el serial del registro SOA, el cual si se cambia, se hará la transferencia de zona. A continuación las capturas:
 
   - Fran:<br>
   ![slave y notify Fran](imagenes/francisco/name.conf.local-Debian5-slave.png)
