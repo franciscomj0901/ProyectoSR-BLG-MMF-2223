@@ -77,12 +77,41 @@ Una vez que ya tenemos estos archivos creados hay que configurar los archivos db
  ![db.equipos alvaro](imagenes/alvaro/db.equipos.comalvaro.jpg)
  ---
  5. **Zonas inversas** <br>
+Las zonas inversas actúan al contrario que las zonas directas, es decir nos entregan el nombre dns a partir de la dirección IP. A continuación os dejaremos fotos de las actualizaciones que hemos realizado en el archivo /etc/bind/named.conf.local:
 
- - Álvaro: <br>
-![db.equipos alvaro](imagenes/alvaro/dbDMZdebian5alvaro.png)
- 
-![db.equipos alvaro](imagenes/alvaro/dbMZdebian6alvaro.png)
+- Debian5-Pruebas:
+  - Fran:<br>
+  ![conf.local inversas Debian5 Fran]()
+  - Guillermo:<br>
+   ![conf.local inversas Debian5 guillermo](imagenes/guillermo/zonasinversasdeb5.PNG)
+  - Álvaro:<br>
+  ![conf.local inversas Debian5 alvaro](imagenes/alvaro/debian5namedconfnuevoalvaro.png)<br><br><br>
+  
+- Debian6-Pruebas:
+  - Fran:<br>
+  ![conf.local inversas Debian6 Fran]()
+  - Guillermo:<br>
+   ![conf.local inversas Debian6 guillermo](imagenes/guillermo/zonasinversasdeb6.PNG)
+  - Álvaro:<br>
+  ![conf.local inversas Debian6](imagenes/alvaro/debian6namedconfnuevoalvaro.png)<br><br><br>
 
-![db.equipos alvaro](imagenes/alvaro/debian5namedconfnuevoalvaro.png)
+Una vez que ya tenemos estos archivos creados hay que configurar los archivos db.MZ y db.DMZ<br>
+- db.DMZ (Que se encuentra en el Debian5.pruebas)<br>
+  - Fran:<br>
+   ![db.DMZ Fran]()
+  - Guillermo:<br>
+   ![db.DMZ Guillermo](imagenes/guillermo/db.DMZ.PNG)
+  - Álvaro:<br>
+![db.DMZ alvaro](imagenes/alvaro/dbDMZdebian5alvaro.png)<br><br><br>
+- db.MZ (Que se encuentra en el Debian6-pruebas)<br>
+  - Fran:<br>
+   ![db.MZ francisco]()
+  - Guillermo:<br>
+  ![db.MZ francisco](imagenes/guillermo/db.MZ.PNG)
+  - Álvaro:<br>
+![db.MZ alvaro](imagenes/alvaro/dbMZdebian6alvaro.png)<br><br><br>
 
-![db.equipos alvaro](imagenes/alvaro/debian6namedconfnuevoalvaro.png)
+
+
+
+
