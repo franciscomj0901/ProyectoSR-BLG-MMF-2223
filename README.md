@@ -199,8 +199,8 @@ Los registros especiales que nosotros vamos a poner son NS, CNAME, MX y SOA. Par
 - Registros NS: Representa a los servidores DNS del espacio de nombres, en nuestro caso son el Debian5-pruebas y Debian6-pruebas.<br>
  ![Registro NS](imagenes/registrosNS.png)<br><br><br>
 - Registros CNAME: Se usa para añadir alias a ciertos equipos equipos y que sean accesibles por varios nombres, por ejemplo nuestro router será accedido mediante Debian1-pruebas.routers.producción.com o cambiando el último nivle por enrutador.<br>
- ![Registro cname debian1](imagenes/cname-Debian1.png)<br>
- ![Registro cname debian3](imagenes/cname-Debian3.png)<br>
+ ![Registro cname debian1](imagenes/cname-Debian1.png)<br><br>
+ ![Registro cname debian3](imagenes/cname-Debian3.png)<br><br>
  ![Registro cname debian5 y 6](/imagenes/cname-Debian5%20y%20Debian6.png)<br><br><br>
 
 - Registros MX: Se usa para reconocer rápidamente los servidores de correo del dominio, que en nuestro caso será Debian3-pruebas.<br>
