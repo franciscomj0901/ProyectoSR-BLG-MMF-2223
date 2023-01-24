@@ -164,4 +164,30 @@ Debian 1 tendrá su configuración estática así que su resolv.conf se configur
   - Guillermo:<br>
    ![resolv.conf Debian1 guillermo](imagenes/guillermo/resolv.confdeb1.PNG)
   - Álvaro:<br>
-  ![resolv.conf Debian1 Álvaro](imagenes/alvaro/resolvdebian1.jpg)
+  ![resolv.conf Debian1 Álvaro](imagenes/alvaro/resolvdebian1.jpg)<br><br>
+  
+La DMZ, es decir, los equipos que tiene a Debian5 como servidor DNS preferido, está representada por Debian3-Pruebas y la MZ, es decir, los equipos que tiene a Debian6 como servidor DNS preferido, está representada por Debian2-Pruebas. Esta configuración se hará mediante DHCP, aprendido en la unidad anterior, para ello editaremos el fichero /etc/dhcp/dhcpd.conf en el Debian1:
+ - Debian1-Pruebas:
+  - Fran:<br>
+  ![dhcpd.conf Debian1 Fran](imagenes/francisco/dhcpd.conf-Debian1.png)
+  - Guillermo:<br>
+   ![dhcpd.conf Debian1 guillermo]()
+  - Álvaro:<br>
+  ![dhcpd.con Debian1 Álvaro]()<br><br>
+  
+Como vemos, reservamos una IP al Debian2 y al Debian3 y ponemos como servidor DNS preferido y alternativo el que corresponda según sea la MZ o la DMZ. El range empieza en .103 y .104 debido a que si lo empezamos en 100 o en algun rango que incluya las IPs que hemos reservado, nos dará un error. Una vez configurado todo esto, obtendremos la siguiente configuración en los clientes:
+- Debian2-Pruebas:
+  - Fran:<br>
+  ![resolv.conf Debian2 Fran](imagenes/francisco/resolv.conf-Debian2.png)
+  - Guillermo:<br>
+   ![resolv.conf Debian2 guillermo]()
+  - Álvaro:<br>
+  ![resolv.conf Debian2 Álvaro]()<br><br>
+  
+  - Debian3-Pruebas:
+  - Fran:<br>
+  ![resolv.conf Debian3 Fran](imagenes/francisco/resolv.conf-Debian3.png)
+  - Guillermo:<br>
+   ![resolv.conf Debian3 guillermo]()
+  - Álvaro:<br>
+  ![resolv.conf Debian3 Álvaro]()<br><br>
