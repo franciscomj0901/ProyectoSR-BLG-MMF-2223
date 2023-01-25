@@ -259,7 +259,7 @@ Es el momento de hacer las comprobaciones necesarias para ver que todo funciona:
    - Guillermo:<br>
    ![comprobación dentro de red guillermo](imagenes/guillermo/hostpc1.png)
    - Álvaro:<br>
-  ![comprobación dentro de red Álvaro]()<br><br>
+  ![comprobación dentro de red Álvaro](imagenes/alvaro/comprobacionequipodominio.png)<br><br>
   
 - Comprobacion de los servidores de correo:<br>
   - Fran:<br>
@@ -267,7 +267,7 @@ Es el momento de hacer las comprobaciones necesarias para ver que todo funciona:
    - Guillermo:<br>
    ![comprobación de servidores de correo guillermo](imagenes/guillermo/hostmx.png)
    - Álvaro:<br>
-  ![comprobación de servidores de  Álvaro]()<br><br>
+  ![comprobación de servidores de  Álvaro](imagenes/alvaro/servidorescorreocomprobacion.png)<br><br>
   
 - Comprobacion de los servidores de nombre:<br>
   - Fran:<br>
