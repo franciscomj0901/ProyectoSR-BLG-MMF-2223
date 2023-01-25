@@ -242,10 +242,61 @@ En este proyecto haremos transferencias de zona desde el Debian6 al Debian5, aun
    - Álvaro:<br>
   ![allow-transfer Álvaro]()<br><br>
 
-Una vez hecho todo esto, reiniciamos el servicio y al hacer _ls_ debemo tener el archivo esclavo.
+Una vez hecho todo esto, reiniciamos el servicio y al hacer _ls_ debemos tener el archivo esclavo.
    - Fran:<br>
   ![comprobación transferencia Fran](imagenes/francisco/transferencia%20de%20zona%20Debian5-Debian6.png)
    - Guillermo:<br>
    ![comprobación transferencia guillermo](imagenes/guillermo/comprobacionesclavo.png)
    - Álvaro:<br>
   ![comprobación transferencia Álvaro]()<br><br>
+  
+  ---
+  10. **Comprobaciones**<br>
+Es el momento de hacer las comprobaciones necesarias para ver que todo funciona:<br> 
+- Comprobacion de un equipo del dominio:<br>
+ - Fran:<br>
+  ![comprobación dentro de red fran](imagenes/francisco/host-PC1-Debian2.png)
+   - Guillermo:<br>
+   ![comprobación dentro de red guillermo](imagenes/guillermo/hostpc1.png)
+   - Álvaro:<br>
+  ![comprobación dentro de red Álvaro]()<br><br>
+  
+- Comprobacion de los servidores de correo:<br>
+ - Fran:<br>
+  ![comprobación de servidores de correo fran](imagenes/francisco/host-MX-Debian2.png)
+   - Guillermo:<br>
+   ![comprobación de servidores de correo guillermo](imagenes/guillermo/hostmx.png)
+   - Álvaro:<br>
+  ![comprobación de servidores de  Álvaro]()<br><br>
+  
+- Comprobacion de los servidores de nombre:<br>
+ - Fran:<br>
+  ![comprobación de servidores de nombre fran](imagenes/francisco/host-NS-Debian2.png)
+   - Guillermo:<br>
+   ![comprobación de servidores de nombre guillermo](imagenes/guillermo/hostNS.png)
+   - Álvaro:<br>
+  ![comprobación de servidores de nombre Álvaro]()<br><br>
+  
+- Comprobacion de los registros Cname:<br>
+ - Fran:<br>
+  ![comprobación de cname fran](imagenes/francisco/host-CNAME-Debian2.png)
+   - Guillermo:<br>
+   ![comprobación de cname guillermo](imagenes/guillermo/hostcname.png)
+   - Álvaro:<br>
+  ![comprobación cname Álvaro]()<br><br>  
+  
+- Comprobacion de las zonas inversas:<br>
+ - Fran:<br>
+  ![comprobación de zona inversa fran](imagenes/francisco/host-Inverso-Debian2.png)
+   - Guillermo:<br>
+   ![comprobación de zona inversa guillermo](imagenes/guillermo/hostinverso.png)
+   - Álvaro:<br>
+  ![comprobación de zona inversa Álvaro]()<br><br>
+  
+- Comprobacion de resoluciones fuera del dominio:<br>
+ - Fran:<br>
+  ![comprobación fuera](imagenes/francisco/host-Google-Debian2.png)
+   - Guillermo:<br>
+   ![comprobación fuera](imagenes/guillermo/hostgoogle.png)
+   - Álvaro:<br>
+  ![comprobación fuera]()<br><br>
