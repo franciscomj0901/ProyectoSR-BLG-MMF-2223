@@ -1,0 +1,29 @@
+                                                                                /var/lib/bind/db.MZ                                                                                             
+$TTL    604800
+@       IN      SOA     Debian5    admin(
+                                2               ; Serial
+                                604800          ; Refresh
+                                86400           ; Retry
+                                2419200         ; Expire
+                                604800 )        ; Negative Cache TTL
+
+; Servidores de nombre
+@       IN      NS      Debian5.servidoresdns.equipos.produccion.com.
+        IN      NS      Debian6.servidoresdns.equipos.produccion.com.
+
+; Almacén
+201     IN      PTR     PC1.almacen.equipos.produccion.com.
+102     IN      PTR     Debian2.almacen.equipos.produccion.com.
+
+; Finanzas
+203     IN      PTR     PC3.finanzas.equipos.produccion.com.
+204     IN      PTR     PC4.finanzas.equipos.produccion.com.
+205     IN      PTR     PC5.finanzas.equipos.produccion.com.
+
+; Servidores DNS
+11      IN      PTR     Debian5.servidoresdns.equipos.produccion.com.
+12      IN      PTR     Debian6.servidoresdns.equipos.produccion.com.
+
+;Interfaz 1 del router
+10      IN      PTR     Debian1.routers.produccion.com.
+
