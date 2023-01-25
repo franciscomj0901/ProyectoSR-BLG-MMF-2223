@@ -1,0 +1,61 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+
+// COMIENZO DEL PROYECTO
+
+
+// Zona A
+zone "servidores.produccion.com"
+{
+        type master;
+        file "/var/lib/bind/db.servidores.com";
+};
+
+// Zona B
+zone "routers.produccion.com"
+{
+        type master;
+        file "/var/lib/bind/db.routers.com";
+};
+
+// Zona C
+zone "equipos.produccion.com"
+{
+        type slave;
+        file "/var/lib/bind/dbescalavo.equipos.com";
+        masters {172.17.4.12;};
+        allow-notify {172.17.4.12;};
+
+};
+
+//Zonas inversas
+
+//Zona MZ: 172.17.4.0/24
+zone "4.17.172.in-addr.arpa"
+{
+        type slave;
+        file "/var/lib/bind/dbesclavo.MZ";
+        masters {172.17.4.12;};
+        allow-notify {172.17.4.12;};
+};
+
+
+//Zona DMZ: 172.17.5.0/24
+zone "5.17.172.in-addr.arpa"
+{
+      type master;
+      file "/var/lib/bind/db.DMZ";
+};
+
+
+
+
+
+
+
