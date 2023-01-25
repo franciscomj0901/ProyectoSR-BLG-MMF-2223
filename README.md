@@ -275,7 +275,7 @@ Es el momento de hacer las comprobaciones necesarias para ver que todo funciona:
    - Guillermo:<br>
    ![comprobación de servidores de nombre guillermo](imagenes/guillermo/hostNS.png)
    - Álvaro:<br>
-  ![comprobación de servidores de nombre Álvaro]()<br><br>
+  ![comprobación de servidores de nombre Álvaro](imagenes/alvaro/servidoresnombrecomprobacion.png)<br><br>
   
 - Comprobacion de los registros Cname:<br>
    - Fran:<br>
@@ -283,7 +283,7 @@ Es el momento de hacer las comprobaciones necesarias para ver que todo funciona:
    - Guillermo:<br>
    ![comprobación de cname guillermo](imagenes/guillermo/hostcname.png)
    - Álvaro:<br>
-  ![comprobación cname Álvaro]()<br><br>  
+  ![comprobación cname Álvaro](imagenes/alvaro/cnamecomprobacion.png)<br><br>  
   
 - Comprobacion de las zonas inversas:<br>
   - Fran:<br>
@@ -291,7 +291,7 @@ Es el momento de hacer las comprobaciones necesarias para ver que todo funciona:
    - Guillermo:<br>
    ![comprobación de zona inversa guillermo](imagenes/guillermo/hostinverso.png)
    - Álvaro:<br>
-  ![comprobación de zona inversa Álvaro]()<br><br>
+  ![comprobación de zona inversa Álvaro](imagenes/alvaro/zonasinversascomprobacion.png)<br><br>
   
 - Comprobacion de resoluciones fuera del dominio:<br>
    - Fran:<br>
