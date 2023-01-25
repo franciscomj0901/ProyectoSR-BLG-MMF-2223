@@ -294,7 +294,7 @@ Es el momento de hacer las comprobaciones necesarias para ver que todo funciona:
   ![comprobación de zona inversa Álvaro]()<br><br>
   
 - Comprobacion de resoluciones fuera del dominio:<br>
- - Fran:<br>
+   - Fran:<br>
   ![comprobación fuera](imagenes/francisco/host-Google-Debian2.png)
    - Guillermo:<br>
    ![comprobación fuera](imagenes/guillermo/hostgoogle.png)
