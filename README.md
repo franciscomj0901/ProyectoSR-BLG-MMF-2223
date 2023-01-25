@@ -5,6 +5,18 @@
 Este es un proyecto el cuál hemos realizado con el fin de poner en práctica todo lo aprendido sobrer DNS y resolucion de nombres. Para explicarlo utilizaremos el guión proporcionado por nuestro profesor Jose Luis Rodríguez.
 
 ---
+##### Índice
+- **Figura con la infraestructura del entorno**<br>
+- **Tener Instalado el servicio DNS en Debian5-pruebas y en Debian6-pruebas**<br>
+- **Espacio de nombres**<br>
+- **Zonas directas**<br>
+- **Zonas inversas**<br>
+- **Servidor DNS de solo caché**<br>
+- **Resolución DNS en los clientes**<br>
+- **Registros especiales**<br>
+- **Transferencias de zonas**<br>
+- **Comprobaciones**
+---
 1. **Figura con la infraestructura del entorno** <br>
 La infraestructura que hemos desarrollado ha sido la siguiente:<br>
 ![Infraestructura](imagenes/DiagramaProyectoDNS.png)
