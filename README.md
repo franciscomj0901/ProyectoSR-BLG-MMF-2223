@@ -172,7 +172,7 @@ La DMZ, es decir, los equipos que tiene a Debian5 como servidor DNS preferido, e
   - Guillermo:<br>
    ![dhcpd.conf Debian1 guillermo](imagenes/guillermo/dhcpd.conf.png)
   - Álvaro:<br>
-  ![dhcpd.con Debian1 Álvaro]()<br><br>
+  ![dhcpd.con Debian1 Álvaro](imagenes/alvaro/dhcpdconfalvaro.png)<br><br>
   
 Como vemos, reservamos una IP al Debian2 y al Debian3 y ponemos como servidor DNS preferido y alternativo el que corresponda según sea la MZ o la DMZ. El range empieza en .103 y .104 debido a que si lo empezamos en 100 o en algun rango que incluya las IPs que hemos reservado, nos dará un error. Una vez configurado todo esto, obtendremos la siguiente configuración en los clientes:
 - Debian2-Pruebas:
@@ -232,7 +232,7 @@ En este proyecto haremos transferencias de zona desde el Debian6 al Debian5, aun
   - Guillermo:<br>
    ![slave y notify guillermo](imagenes/guillermo/notify.png)
   - Álvaro:<br>
-  ![slave y notify Álvaro]()<br><br>
+  ![slave y notify Álvaro](imagenes/alvaro/slavedebian5.png)<br><br>
   
  También debemos tener activadas transferencias de zona en el Debian6, es decir, el cual las va a enviar.<br>
    - Fran:<br>
@@ -240,7 +240,7 @@ En este proyecto haremos transferencias de zona desde el Debian6 al Debian5, aun
    - Guillermo:<br>
    ![allow-transfer guillermo](imagenes/guillermo/notifyyes.png)
    - Álvaro:<br>
-  ![allow-transfer Álvaro]()<br><br>
+  ![allow-transfer Álvaro](imagenes/alvaro/allowtransferdebian6.png)<br><br>
 
 Una vez hecho todo esto, reiniciamos el servicio y al hacer _ls_ debemos tener el archivo esclavo.
    - Fran:<br>
@@ -248,7 +248,7 @@ Una vez hecho todo esto, reiniciamos el servicio y al hacer _ls_ debemos tener e
    - Guillermo:<br>
    ![comprobación transferencia guillermo](imagenes/guillermo/comprobacionesclavo.png)
    - Álvaro:<br>
-  ![comprobación transferencia Álvaro]()<br><br>
+  ![comprobación transferencia Álvaro](imagenes/alvaro/transferenciadezonas.png)<br><br>
   
   ---
   10. **Comprobaciones**<br>
