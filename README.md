@@ -181,7 +181,7 @@ Como vemos, reservamos una IP al Debian2 y al Debian3 y ponemos como servidor DN
   - Guillermo:<br>
    ![resolv.conf Debian2 guillermo](imagenes/guillermo/resolv.confdeb2.png)
   - Álvaro:<br>
-  ![resolv.conf Debian2 Álvaro]()<br><br>
+  ![resolv.conf Debian2 Álvaro](imagenes/alvaro/debian2namedconf.png)<br><br>
   
 - Debian3-Pruebas:
   - Fran:<br>
@@ -189,7 +189,7 @@ Como vemos, reservamos una IP al Debian2 y al Debian3 y ponemos como servidor DN
   - Guillermo:<br>
    ![resolv.conf Debian3 guillermo](imagenes/guillermo/resolv.confdeb3.png)
   - Álvaro:<br>
-  ![resolv.conf Debian3 Álvaro]()<br><br>
+  ![resolv.conf Debian3 Álvaro](imagenes/alvaro/debian3namedconf.png)<br><br>
   
   ---
 8. **Registros especiales** <br>
