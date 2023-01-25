@@ -299,4 +299,4 @@ Es el momento de hacer las comprobaciones necesarias para ver que todo funciona:
    - Guillermo:<br>
    ![comprobación fuera](imagenes/guillermo/hostgoogle.png)
    - Álvaro:<br>
-  ![comprobación fuera]()<br><br>
+  ![comprobación fuera](imagenes/alvaro/hostgoogle.png)<br><br>
