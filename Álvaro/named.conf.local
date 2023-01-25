@@ -1,0 +1,45 @@
+// COMIENZO DEL PROYECTO
+
+
+// Zona A
+zone "servidores.produccion.com"
+{
+        type master;
+        file "/var/lib/bind/db.servidores.com";
+};
+
+// Zona B
+zone "routers.produccion.com"
+{
+        type master;
+        file "/var/lib/bind/db.routers.com";
+};
+
+// Zona C
+zone "equipos.produccion.com"
+{
+        type slave;
+        file "/var/lib/bind/dbesclavo.equipos.com";
+        masters {172.17.28.12;};
+        allow-notify {172.17.28.12;};
+};
+
+
+//Zonas inversas
+//Zona MZ: 172.17.28.0/24
+zone "28.17.172.in-addr.arpa"
+{
+        type slave;
+        file "/var/lib/bind/dbesclavo.MZ";
+         masters {172.17.28.12;};
+        allow-notify {172.17.28.12;};
+};
+
+
+//Zona DMZ: 172.17.29.0/24
+zone "29.17.172.in-addr.arpa"
+{
+      type master;
+      file "/var/lib/bind/db.DMZ";
+};
+
