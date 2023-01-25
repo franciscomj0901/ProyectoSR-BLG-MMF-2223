@@ -101,14 +101,14 @@ Una vez que ya tenemos estos archivos creados hay que configurar los archivos db
   - Guillermo:<br>
    ![db.DMZ Guillermo](imagenes/guillermo/db.DMZ.PNG)
   - Álvaro:<br>
-![db.DMZ alvaro](imagenes/alvaro/dbDMZdebian5alvaro.png)<br><br><br>
+![db.DMZ alvaro](imagenes/alvaro/dbDMZdebian5arreglao.png)<br><br><br>
 - db.MZ (Que se encuentra en el Debian6-pruebas)<br>
   - Fran:<br>
    ![db.MZ francisco](imagenes/francisco/db.MZ-Debian6.png)
   - Guillermo:<br>
   ![db.MZ francisco](imagenes/guillermo/db.MZ.PNG)
   - Álvaro:<br>
-![db.MZ alvaro](imagenes/alvaro/dbMZdebian6alvaro.png)<br><br><br>
+![db.MZ alvaro](imagenes/alvaro/dbMZdebian6arreglado.png)<br><br><br>
 
 ---
 6. **Servidor DNS de solo caché** <br>
@@ -254,7 +254,7 @@ Una vez hecho todo esto, reiniciamos el servicio y al hacer _ls_ debemos tener e
   10. **Comprobaciones**<br>
 Es el momento de hacer las comprobaciones necesarias para ver que todo funciona:<br> 
 - Comprobacion de un equipo del dominio:<br>
-   - Fran:<br>
+ - Fran:<br>
   ![comprobación dentro de red fran](imagenes/francisco/host-PC1-Debian2.png)
    - Guillermo:<br>
    ![comprobación dentro de red guillermo](imagenes/guillermo/hostpc1.png)
@@ -262,7 +262,7 @@ Es el momento de hacer las comprobaciones necesarias para ver que todo funciona:
   ![comprobación dentro de red Álvaro]()<br><br>
   
 - Comprobacion de los servidores de correo:<br>
-   - Fran:<br>
+ - Fran:<br>
   ![comprobación de servidores de correo fran](imagenes/francisco/host-MX-Debian2.png)
    - Guillermo:<br>
    ![comprobación de servidores de correo guillermo](imagenes/guillermo/hostmx.png)
@@ -270,7 +270,7 @@ Es el momento de hacer las comprobaciones necesarias para ver que todo funciona:
   ![comprobación de servidores de  Álvaro]()<br><br>
   
 - Comprobacion de los servidores de nombre:<br>
-   - Fran:<br>
+ - Fran:<br>
   ![comprobación de servidores de nombre fran](imagenes/francisco/host-NS-Debian2.png)
    - Guillermo:<br>
    ![comprobación de servidores de nombre guillermo](imagenes/guillermo/hostNS.png)
@@ -278,7 +278,7 @@ Es el momento de hacer las comprobaciones necesarias para ver que todo funciona:
   ![comprobación de servidores de nombre Álvaro]()<br><br>
   
 - Comprobacion de los registros Cname:<br>
-   - Fran:<br>
+ - Fran:<br>
   ![comprobación de cname fran](imagenes/francisco/host-CNAME-Debian2.png)
    - Guillermo:<br>
    ![comprobación de cname guillermo](imagenes/guillermo/hostcname.png)
@@ -286,7 +286,7 @@ Es el momento de hacer las comprobaciones necesarias para ver que todo funciona:
   ![comprobación cname Álvaro]()<br><br>  
   
 - Comprobacion de las zonas inversas:<br>
-   - Fran:<br>
+ - Fran:<br>
   ![comprobación de zona inversa fran](imagenes/francisco/host-Inverso-Debian2.png)
    - Guillermo:<br>
    ![comprobación de zona inversa guillermo](imagenes/guillermo/hostinverso.png)
@@ -294,7 +294,7 @@ Es el momento de hacer las comprobaciones necesarias para ver que todo funciona:
   ![comprobación de zona inversa Álvaro]()<br><br>
   
 - Comprobacion de resoluciones fuera del dominio:<br>
-   - Fran:<br>
+ - Fran:<br>
   ![comprobación fuera](imagenes/francisco/host-Google-Debian2.png)
    - Guillermo:<br>
    ![comprobación fuera](imagenes/guillermo/hostgoogle.png)
