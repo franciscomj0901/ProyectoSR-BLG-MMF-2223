@@ -1,0 +1,29 @@
+iface lo inet loopback
+
+auto enp0s3
+iface enp0s3 inet dhcp
+
+#INTERFAZ DE LA RED 1
+auto enp0s8
+iface enp0s8 inet static
+        address 172.17.28.10
+        netmask 255.255.255.0
+
+        # Regla NAT para la salida a Internet de los equipos de la red 1
+        up iptables -t nat -A POSTROUTING -o  enp0s3 -s 172.17.28.0/24  -j MASQU>
+        down iptables -t nat -D POSTROUTING -o enp0s3 -s 172.17.28.0/24 -j MASQU>
+
+
+#red2
+auto enp0s9
+iface enp0s9 inet static
+        address 172.17.29.10
+        netmask 255.255.255.0
+#       gateway 172.17.29.12
+
+
+#regla salida internet equipos red 2
+        up iptables -t nat -A POSTROUTING -o enp0s3 -s 172.17.29.0/24 -j  MASQUE>
+        down iptables -t nat -D POSTROUTING -o enp0s3 -s 172.17.29.0/24 -j MASQU>
+
+
