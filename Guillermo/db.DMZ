@@ -1,0 +1,21 @@
+$TTL    604800
+@       IN      SOA     Debian5    admin(
+                                2               ; Serial
+                                604800          ; Refresh
+                                86400           ; Retry
+                                2419200         ; Expire
+                                604800 )        ; Negative Cache TTL
+
+; Servidores de nombre
+@       IN      NS      Debian5.servidoresdns.equipos.produccion.com.
+        IN      NS      Debian6.servidoresdns.equipos.produccion.com.
+
+; Servidores
+103     IN      PTR     Debian3.servidores.produccion.com.
+208     IN      PTR     PC8.servidores.produccion.com.
+209     IN      PTR     PC9.servidores.produccion.com.
+210     IN      PTR     PC10.servidores.produccion.com.
+
+; Interfaz del router 2
+10     IN      PTR     Debian1.routers.produccion.com.
+
