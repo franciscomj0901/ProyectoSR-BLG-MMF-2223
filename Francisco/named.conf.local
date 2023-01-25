@@ -1,0 +1,84 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+// Zona directa
+//zone "ejemplo.com"
+//{
+//      type slave;
+//      file "/var/lib/bind/dbesclavo.ejemplo.com";
+//      masters {172.17.31.11;};
+//      allow-notify {172.17.31.11;};
+//};
+
+
+// Zonas inversas
+// Red No1: 172.17.31.0/24
+//zone "31.17.172.in-addr.arpa"
+//{
+//      type slave;
+//      file "/var/lib/bind/dbesclavo.172.17.31";
+//      masters {172.17.31.11;};
+//      allow-notify {172.17.31.11;};
+//};
+
+
+// Red No2: 172.17.32.0/24
+//zone "32.17.172.in-addr.arpa"
+//{
+//      type slave;
+//      file "/var/lib/bind/dbesclavo.172.17.32";
+//      masters {172.17.31.11;};
+//      allow-notify {172.17.31.11;};
+//};
+
+
+// COMIENZO DEL PROYECTO
+
+// Zonas directas
+// Zona A
+zone "servidores.produccion.com"
+{
+        type slave;
+        file "/var/lib/bind/dbesclavo.servidores.com";
+        masters {172.17.31.11;};
+        allow-notify {172.17.31.11;};
+};
+
+// Zona B
+zone "routers.produccion.com"
+{
+        type slave;
+        file "/var/lib/bind/dbesclavo.routers.com";
+        masters {172.17.31.11;};
+        allow-notify {172.17.31.11;};
+};
+
+// Zona C
+zone "equipos.produccion.com"
+{
+        type master;
+        file "/var/lib/bind/db.equipos.com";
+};
+
+//Zonas inversas
+//Zona MZ: 172.17.31.0/24
+zone "31.17.172.in-addr.arpa"
+{
+        type master;
+        file "/var/lib/bind/db.MZ";
+};
+
+
+//Zona DMZ: 172.17.32.0/24
+zone "32.17.172.in-addr.arpa"
+{
+        type slave;
+        file "/var/lib/bind/dbesclavo.DMZ";
+        masters {172.17.31.11;};
+        allow-notify {172.17.31.11;};
+};
